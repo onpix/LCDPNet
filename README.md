@@ -1,6 +1,12 @@
-Local Color Distributions Prior for Image Enhancement [ECCV2022]
+# Local Color Distributions Prior for Image Enhancement [ECCV2022]
 
-# Running
+Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
+
+<sup>1</sup>City University of Hong Kong
+
+[[ Project page ]](https://hywang99.github.io/2022/07/09/lcdpnet/)
+
+![](https://hywang99.github.io/images/lcdpnet/arch.png)
 
 ## Requirements
 
