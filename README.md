@@ -1,9 +1,8 @@
-# LCDPNet
 Local Color Distributions Prior for Image Enhancement [ECCV2022]
 
 # Running
 
-## Requirementss
+## Requirements
 
 - torch == 1.12
 - pytorch-lightning == 1.6.5
