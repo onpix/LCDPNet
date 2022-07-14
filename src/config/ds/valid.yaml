@@ -1,0 +1,7 @@
+# @package ds
+class: img_dataset
+name: ours-cslab.valid
+input:
+  - /public/hywang26/ds/OaU03/valid-input/*
+GT:
+  - /public/hywang26/ds/OaU03/valid-gt/*

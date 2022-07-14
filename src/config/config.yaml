@@ -1,0 +1,42 @@
+project: default_proj
+name: default_name        # name of experiment
+comment: false
+debug: false
+val_debug_step_nums: 2    # sanity check num
+gpu: -1                   # number of gpus to use (int) or which GPUs to use (list or str)
+backend: ddp              # gpu accelerator. value: ddp or none
+runtime_precision: 16
+amp_backend: native       # native or apex
+amp_level: O1
+dataloader_num_worker: 5
+mode: train
+logger: tb
+
+# frequently changed configs:
+num_epoch: 1000
+valid_every: 10           # validate every N EPOCHS
+savemodel_every: 4        # run ModelCheckpoint every N EPOCHS
+log_every: 100            # log your message, curve or images every N STEPS
+batchsize: 16
+valid_batchsize: 1
+lr: 1e-4
+checkpoint_path: null
+
+checkpoint_monitor: loss
+resume_training: true
+monitor_mode: min
+early_stop: false
+valid_ratio: 0.1
+
+flags: { }
+
+defaults:
+  - aug: resize512
+  - ds@train_ds: train
+  - ds@test_ds: test
+  - ds@valid_ds: valid
+  - runtime: lcdpnet.release
+
+hydra:
+  run:
+    dir: ./

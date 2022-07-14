@@ -1,0 +1,9 @@
+# @package ds
+class: img_dataset
+name: ours
+input:
+  - /public/hywang26/ds/OaU03/input/*
+  - /public/hywang26/ds/raise01/input/*
+GT:
+  - /public/hywang26/ds/OaU03/gt/*
+  - /public/hywang26/ds/raise01/gt/*

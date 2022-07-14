@@ -1,0 +1,47 @@
+# @package runtime
+
+modelname: lcdpnet
+use_wavelet: false
+use_attn_map: false
+use_non_local: false
+
+how_to_fuse: cnn-weights
+
+backbone: unet
+
+# choose from : [conv, drconv]
+conv_type: conv
+
+# the output of the backbone is the illu_net.
+# If false, the output of the backbone is directly to darken & brighten input.
+backbone_out_illu: true
+
+illumap_channel: 3      # 1 or 3
+
+# 2 branches share the same weights to predict the illu map.
+share_weights: true
+
+# only work when using hist-unet
+n_bins: 8
+hist_as_guide: false
+
+loss:
+  ltv: 0              # ltv applied on the FINAL OUTPUT.
+  cos: 0.5            # cos similarity loss
+  weighted_loss: 0    # weighted loss instead of l1loss
+  tvloss1: 0.01       # tvloss applied on the illumination
+  tvloss2: 0.01       # tvloss applied on the inverse illumination
+  tvloss1_new: 0
+  tvloss2_new: 0
+
+  l1_loss: 1.0        # default pixel-wise l1 loss
+  ssim_loss: 0
+  psnr_loss: 0
+  illumap_loss: 0     # constraint illumap1 + illumap2 -> 1
+  hist_loss: 0
+  inter_hist_loss: 0
+  vgg_loss: 0
+
+defaults:
+  - bilateral_upsample_net.default@bilateral_upsample_net
+  - hist_unet.default@hist_unet

@@ -1,0 +1,11 @@
+n_bins: 8
+hist_as_guide: false
+channel_nums: false
+encoder_use_hist: false
+guide_feature_from_hist: false
+region_num: 8
+use_gray_hist: false
+conv_type: drconv
+down_ratio: 2
+hist_conv_trainable: false
+drconv_position: [ 1,1 ]

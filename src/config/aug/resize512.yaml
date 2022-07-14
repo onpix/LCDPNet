@@ -1,0 +1,18 @@
+# @package aug
+
+# crop size:
+#  - false for not cropping;
+#  - int n for cropping square [n. n];
+#  - [h, w] for cropping specific sizes
+crop: false
+
+
+# downsample factor.
+#  - value > 1 for downsample;
+#  - 0.x for upsample;
+#  - [h, w] for specific size;
+#  - false for not resizing.
+downsample: [ 512, 512 ]
+
+h-flip: true
+v-flip: true
