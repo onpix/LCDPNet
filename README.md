@@ -41,4 +41,4 @@ There are two `tar.gz` files: `raise.tar.gz` and `adobe5k.tar.gz`. Unzip them. T
 
 ## Contact
 
-If you have any question, feel free to open issues or contact me via hywang26-c@my.cityu.edu.hk. PR is also welcome ! (> ω < )
+If you have any question, feel free to open issues or contact me via hywang26-c@my.cityu.edu.hk. (> ω < )
