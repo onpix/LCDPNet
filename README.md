@@ -26,8 +26,8 @@ Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
 
 ## Dataset
 
-[to be released]
+[ to be released ]
 
 ## Pretrained model
 
-[to be released]
+[ to be released ]
