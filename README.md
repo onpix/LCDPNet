@@ -26,8 +26,15 @@ Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
 
 ## Dataset
 
-[ to be released ]
+[[ Google drive ]](https://drive.google.com/drive/folders/10Reaq-N0DiZiFpSrZ8j5g3g0EJes4JiS?usp=sharing)
+
+There are two `tar.gz` files: `raise.tar.gz` and `adobe5k.tar.gz`. Unzip them. The training and test dataset are:
+
+|       | Train | Test |
+|-------|-------|------|
+| Input | `adobe5k/input/*.png` <br /> `raise/input/*.png` | `adobe5k/test-input/*.png` |
+| GT    | `adobe5k/gt/*.png` <br /> `raise/gt/*.png`       | `adobe5k/test-gt/*.png` |
 
 ## Pretrained model
 
-[ to be released ]
+[to be released]
