@@ -55,12 +55,14 @@ Our model is lightweight. Experiments show that increasing model size will furth
 
 If your find our work or code helpful, or your research benefits from this repo, please cite our paper:
 
+```
 @inproceedings{wang2022lcdp,
     title =        {Local Color Distributions Prior for Image Enhancement},
     author =       {Haoyuan Wang, Ke Xu, and Rynson W.H. Lau},
     booktitle =    {Proceedings of the European Conference on Computer Vision (ECCV)},
     year =         {2022}
 }
+```
 
 ## Contact Me
 
