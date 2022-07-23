@@ -47,7 +47,20 @@ Unzip two `tar.gz` files: `dataset/raise.tar.gz` and `dataset/adobe5k.tar.gz`. T
 | Input | `adobe5k/input/*.png` <br /> `raise/input/*.png` | `adobe5k/test-input/*.png` |
 | GT    | `adobe5k/gt/*.png` <br /> `raise/gt/*.png`       | `adobe5k/test-gt/*.png` |
 
-We provide the two pretrained models `pretrained_models/trained_on_ours.ckpt` and `pretrained_models/trained_on_MSEC.ckpt` for researchers to reproduce the results in Table 1. and Table 2. in our paper.
+We provide the two pretrained models `pretrained_models/trained_on_ours.ckpt` and `pretrained_models/trained_on_MSEC.ckpt` for researchers to reproduce the results in Table 1. and Table 2. in our paper. Note that we train `pretrained_models/trained_on_MSEC.ckpt` on the Expert C subset of the MSEC dataset with both over and under-exposed images.
+
+Our model is lightweight. Experiments show that increasing model size will further improve the quality of the results. To train a bigger model, increase the values in `runtime.bilateral_upsample_net.hist_unet.channel_nums`.
+
+## Citation
+
+If your find our work or code helpful, or your research benefits from this repo, please cite our paper:
+
+@inproceedings{wang2022lcdp,
+    title =        {Local Color Distributions Prior for Image Enhancement},
+    author =       {Haoyuan Wang, Ke Xu, and Rynson W.H. Lau},
+    booktitle =    {Proceedings of the European Conference on Computer Vision (ECCV)},
+    year =         {2022}
+}
 
 ## Contact Me
 
