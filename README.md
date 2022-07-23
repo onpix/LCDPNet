@@ -53,7 +53,7 @@ Our model is lightweight. Experiments show that increasing model size will furth
 
 ## Citation
 
-If your find our work or code helpful, or your research benefits from this repo, please cite our paper:
+If you find our work or code helpful, or your research benefits from this repo, please cite our paper:
 
 ```
 @inproceedings{wang2022lcdp,
