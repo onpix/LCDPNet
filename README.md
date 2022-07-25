@@ -8,9 +8,9 @@ Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
 [[ Dataset & Pretrained models ]](https://drive.google.com/drive/folders/10Reaq-N0DiZiFpSrZ8j5g3g0EJes4JiS?usp=sharing)
 
 
-| Input | Ours                                                                                   |
-|-------|----------------------------------------------------------------------------------------|
-|  ![](https://hywang99.github.io/images/lcdpnet/res0-a2117-20050510_213735__MG_1270.png)     | ![](https://hywang99.github.io/images/lcdpnet/res1-a2117-20050510_213735__MG_1270.png) |
+| Input                                                                                                           | Ours                                                                                                            |
+|-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| <img width=250px src="https://hywang99.github.io/images/lcdpnet/res0-a2117-20050510_213735__MG_1270.png"></img> | <img width=250px src="https://hywang99.github.io/images/lcdpnet/res1-a2117-20050510_213735__MG_1270.png"></img> |
 
 [//]: # (| ![]&#40;https://hywang99.github.io/images/lcdpnet/res0-a1273-IMG_1444.png&#41; | ![]&#40;https://hywang99.github.io/images/lcdpnet/res1-a1273-IMG_1444.png&#41;                 |)
 [//]: # (|  ![]&#40;https://hywang99.github.io/images/lcdpnet/res0-a0259-dvf_029.png&#41;     | ![]&#40;https://hywang99.github.io/images/lcdpnet/res1-a0259-dvf_029.png&#41;                  |)
