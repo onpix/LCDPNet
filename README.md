@@ -49,6 +49,11 @@ Unzip two `tar.gz` files: `dataset/raise.tar.gz` and `dataset/adobe5k.tar.gz`. T
 
 We provide the two pretrained models `pretrained_models/trained_on_ours.ckpt` and `pretrained_models/trained_on_MSEC.ckpt` for researchers to reproduce the results in Table 1. and Table 2. in our paper. Note that we train `pretrained_models/trained_on_MSEC.ckpt` on the Expert C subset of the MSEC dataset with both over and under-exposed images.
 
+|  Filename   | Training data  | PSNR | SSIM |  
+|-------|-------|------|-----|
+| trained_on_ours.ckpt | [Ours](https://drive.google.com/drive/folders/10Reaq-N0DiZiFpSrZ8j5g3g0EJes4JiS?usp=sharing)  | 23.239  |  0.842 |
+| trained_on_MSEC.ckpt | [MSEC](https://github.com/mahmoudnafifi/Exposure_Correction)  | 22.295   |  0.855 |
+
 Our model is lightweight. Experiments show that increasing model size will further improve the quality of the results. To train a bigger model, increase the values in `runtime.bilateral_upsample_net.hist_unet.channel_nums`.
 
 ## Citation
