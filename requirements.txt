@@ -1,0 +1,6 @@
+ipdb
+hydra-core
+pytorch_lightning
+scikit-image
+kornia
+wandb

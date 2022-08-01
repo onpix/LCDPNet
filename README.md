@@ -23,6 +23,12 @@ Existing image enhancement methods are typically designed to address either the 
 
 ![Our model.](https://hywang99.github.io/images/lcdpnet/arch.png)
 
+## Setup
+
+1. Clone `git clone https://github.com/hywang99/LCDPNet.git`
+2. Go to directory `cd LCDPNet`
+3. Install required packages `pip install -r requirments.txt`
+
 ## Running
 
 To train our model:
