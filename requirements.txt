@@ -4,3 +4,6 @@ pytorch_lightning
 scikit-image
 kornia
 wandb
+opencv-python
+matplotlib
+torchvision
