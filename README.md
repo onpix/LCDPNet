@@ -27,7 +27,7 @@ Existing image enhancement methods are typically designed to address either the 
 
 1. Clone `git clone https://github.com/hywang99/LCDPNet.git`
 2. Go to directory `cd LCDPNet`
-3. Install required packages `pip install -r requirments.txt`
+3. Install required packages `pip install -r requirements.txt`
 
 ## Running
 
