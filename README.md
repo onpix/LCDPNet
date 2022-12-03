@@ -7,7 +7,7 @@ Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
 <sup>1</sup>City University of Hong Kong
 
 <h2 style="font-size: 2rem; margin-bottom:1rem;">
-See more on our <a href="whyy.site/lcdp" style="margin: auto;">[ project page ] !</a>
+See more on our <a href="https://whyy.site/lcdp" style="margin: auto;">[ project page ] !</a>
 </h2>
 </div>
 
