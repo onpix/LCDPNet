@@ -1,12 +1,15 @@
-# Local Color Distributions Prior for Image Enhancement [ECCV2022]
+<div style="text-align: center">
+<h1> Local Color Distributions Prior for Image Enhancement [ECCV2022]
+</h1>
 
 Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
 
 <sup>1</sup>City University of Hong Kong
 
-[[ Project page ]](https://whyy.site/lcdp)
-[[ Dataset & Pretrained models ]](https://drive.google.com/drive/folders/10Reaq-N0DiZiFpSrZ8j5g3g0EJes4JiS?usp=sharing)
-
+<div style="font-size: 2rem; margin-bottom:1rem;">
+See more on our <br/> <a href="whyy.site/lcdp" style="margin: auto;">[ project page ] !</a>
+</div>
+</div>
 
 | Input                                                                                                           | Ours                                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
