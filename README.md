@@ -15,7 +15,7 @@ Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
 [//]: # (|  ![]&#40;https://hywang99.github.io/images/lcdpnet/res0-a1682-DSC_0010-4.png&#41;     | ![]&#40;https://hywang99.github.io/images/lcdpnet/res1-a1682-DSC_0010-4.png&#41;               |)
 
 <h2 style="font-size: 2rem; margin-bottom:1rem;">
-See more comparison results on our <a href="https://whyy.site/lcdp" style="margin: auto;">[ project page ] ：</a>
+See more comparison results on our <a href="https://whyy.site/paper/lcdp" style="margin: auto;">[ project page ] ：</a>
 </h2>
 </div>
 
