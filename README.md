@@ -7,9 +7,15 @@ Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
 <sup>1</sup>City University of Hong Kong
 
 <h2 style="font-size: 2rem; margin-bottom:1rem;">
-See more on our <a href="https://whyy.site/lcdp" style="margin: auto;">[ project page ] !</a>
+See more on our <a href="https://whyy.site/lcdp" style="margin: auto;">[ project page ] ：</a>
 </h2>
 </div>
+
+![](https://github.com/onpix/LCDPNet/blob/main/fig1.jpg)
+
+---
+
+
 
 | Input                                                                                                           | Ours                                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -18,6 +24,7 @@ See more on our <a href="https://whyy.site/lcdp" style="margin: auto;">[ project
 [//]: # (| ![]&#40;https://hywang99.github.io/images/lcdpnet/res0-a1273-IMG_1444.png&#41; | ![]&#40;https://hywang99.github.io/images/lcdpnet/res1-a1273-IMG_1444.png&#41;                 |)
 [//]: # (|  ![]&#40;https://hywang99.github.io/images/lcdpnet/res0-a0259-dvf_029.png&#41;     | ![]&#40;https://hywang99.github.io/images/lcdpnet/res1-a0259-dvf_029.png&#41;                  |)
 [//]: # (|  ![]&#40;https://hywang99.github.io/images/lcdpnet/res0-a1682-DSC_0010-4.png&#41;     | ![]&#40;https://hywang99.github.io/images/lcdpnet/res1-a1682-DSC_0010-4.png&#41;               |)
+
 
 
 ## Abstract 
