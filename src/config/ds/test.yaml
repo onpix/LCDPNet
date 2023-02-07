@@ -1,7 +1,7 @@
 # @package ds
 class: img_dataset
-name: ours-cslab.test
+name: lcdp_data.test
 input:
-  - /public/hywang26/ds/OaU03/test-input/*
+  - your_dataset_path/test-input/*
 GT:
-  - /public/hywang26/ds/OaU03/test-gt/*
+  - your_dataset_path/test-gt/*

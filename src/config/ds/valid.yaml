@@ -1,7 +1,7 @@
 # @package ds
 class: img_dataset
-name: ours-cslab.valid
+name: lcdp_data.valid
 input:
-  - /public/hywang26/ds/OaU03/valid-input/*
+  - your_dataset_path/valid-input/*
 GT:
-  - /public/hywang26/ds/OaU03/valid-gt/*
+  - your_dataset_path/valid-gt/*

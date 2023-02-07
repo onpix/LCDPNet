@@ -1,9 +1,7 @@
 # @package ds
 class: img_dataset
-name: ours
+name: lcdp_data.train
 input:
-  - /public/hywang26/ds/OaU03/input/*
-  - /public/hywang26/ds/raise01/input/*
+  - your_dataset_path/input/*
 GT:
-  - /public/hywang26/ds/OaU03/gt/*
-  - /public/hywang26/ds/raise01/gt/*
+  - your_dataset_path/gt/*
