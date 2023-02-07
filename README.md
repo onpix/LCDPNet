@@ -14,9 +14,7 @@ Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
 [//]: # (|  ![]&#40;https://hywang99.github.io/images/lcdpnet/res0-a0259-dvf_029.png&#41;     | ![]&#40;https://hywang99.github.io/images/lcdpnet/res1-a0259-dvf_029.png&#41;                  |)
 [//]: # (|  ![]&#40;https://hywang99.github.io/images/lcdpnet/res0-a1682-DSC_0010-4.png&#41;     | ![]&#40;https://hywang99.github.io/images/lcdpnet/res1-a1682-DSC_0010-4.png&#41;               |)
 
-<h2 style="font-size: 2rem; margin-bottom:1rem;">
 See more interactive comparisons on our <a href="https://whyy.site/paper/lcdp" style="margin: auto;">[ project page ]</a> !
-</h2>
 </div>
 
 ![](https://github.com/onpix/LCDPNet/blob/main/fig1.jpg)
@@ -52,14 +50,14 @@ To test our model:
 
 [[ Google drive ]](https://drive.google.com/drive/folders/10Reaq-N0DiZiFpSrZ8j5g3g0EJes4JiS?usp=sharing)
 
-Unzip two `tar.gz` files: `dataset/raise.tar.gz` and `dataset/adobe5k.tar.gz`. The training and test dataset are:
+Unzip `lcdp_dataset.7z`. The training and test images are:
 
 |       | Train | Test |
 |-------|-------|------|
-| Input | `adobe5k/input/*.png` <br /> `raise/input/*.png` | `adobe5k/test-input/*.png` |
-| GT    | `adobe5k/gt/*.png` <br /> `raise/gt/*.png`       | `adobe5k/test-gt/*.png` |
+| Input | `input/*.png`  | `test-input/*.png` |
+| GT    | `gt/*.png`     | `test-gt/*.png` |
 
-We provide the two pretrained models `pretrained_models/trained_on_ours.ckpt` and `pretrained_models/trained_on_MSEC.ckpt` for researchers to reproduce the results in Table 1. and Table 2. in our paper. Note that we train `pretrained_models/trained_on_MSEC.ckpt` on the Expert C subset of the MSEC dataset with both over and under-exposed images.
+We provide the two pretrained models: `pretrained_models/trained_on_ours.ckpt` and `pretrained_models/trained_on_MSEC.ckpt` for researchers to reproduce the results in Table 1 and Table 2 in our paper. Note that we train `pretrained_models/trained_on_MSEC.ckpt` on the Expert C subset of the MSEC dataset with both over and under-exposed images.
 
 |  Filename   | Training data | Testing data | Test PSNR | Test SSIM |  
 |-------|-------|------|-----|-----|
@@ -83,4 +81,4 @@ If you find our work or code helpful, or your research benefits from this repo, 
 
 ## Contact Me
 
-If you have any question, feel free to open issues or contact me via hywang26-c@my.cityu.edu.hk. (> ω < )
+If you have any question, feel free to open issues or contact me via hywang26-c@my.cityu.edu.hk.
