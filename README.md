@@ -14,12 +14,19 @@ Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
 [//]: # (|  ![]&#40;https://hywang99.github.io/images/lcdpnet/res0-a0259-dvf_029.png&#41;     | ![]&#40;https://hywang99.github.io/images/lcdpnet/res1-a0259-dvf_029.png&#41;                  |)
 [//]: # (|  ![]&#40;https://hywang99.github.io/images/lcdpnet/res0-a1682-DSC_0010-4.png&#41;     | ![]&#40;https://hywang99.github.io/images/lcdpnet/res1-a1682-DSC_0010-4.png&#41;               |)
 
+---
+
+## Changelog
+
+- 2023.2.7: Merge `tar.gz` files of our dataset to a single `7z` file.
+
+## More Comparisons
+
 See more interactive comparisons on our <a href="https://whyy.site/paper/lcdp" style="margin: auto;">[ project page ]</a> !
 </div>
 
 ![](https://github.com/onpix/LCDPNet/blob/main/fig1.jpg)
 
----
 
 ## Abstract 
 
