@@ -18,6 +18,7 @@ Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
 ## Changelog
 
 - 2023.2.7: Merge `tar.gz` files of our dataset to a single `7z` file.
+- 2023.2.8: Update packages version in `requirements.txt`.
 
 ## More Comparisons
 
