@@ -1,10 +1,22 @@
-<div style="text-align: center">
-<h1> Local Color Distributions Prior for Image Enhancement [ECCV2022]
+<div>
+<h1 align="center"> Local Color Distributions Prior for Image Enhancement [ECCV2022]
 </h1>
 
-Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
+<div align="center">
+<a href="https://paperswithcode.com/sota/image-enhancement-on-exposure-errors?p=local-color-distributions-prior-for-image">
+    <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/local-color-distributions-prior-for-image/image-enhancement-on-exposure-errors" alt="PWC" />
+</a>
+</div>
 
+
+<div align="center">
+Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
+</div>
+
+<div align="center" style="margin-bottom: 1rem">
 <sup>1</sup>City University of Hong Kong
+</div>
+
 
 | Input                                                                                                           | Ours                                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -14,7 +26,6 @@ Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
 [//]: # (|  ![]&#40;https://hywang99.github.io/images/lcdpnet/res0-a0259-dvf_029.png&#41;     | ![]&#40;https://hywang99.github.io/images/lcdpnet/res1-a0259-dvf_029.png&#41;                  |)
 [//]: # (|  ![]&#40;https://hywang99.github.io/images/lcdpnet/res0-a1682-DSC_0010-4.png&#41;     | ![]&#40;https://hywang99.github.io/images/lcdpnet/res1-a1682-DSC_0010-4.png&#41;               |)
 
----
 
 ## Changelog
 
@@ -88,4 +99,4 @@ If you find our work or code helpful, or your research benefits from this repo, 
 
 ## Contact Me
 
-If you have any question, feel free to open issues or contact me via hywang26-c@my.cityu.edu.hk.
+If you have any question, feel free to open issues or contact me via cs.why@my.cityu.edu.hk.
