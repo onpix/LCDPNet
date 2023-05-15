@@ -31,7 +31,7 @@ def main(opt):
 
     trainer = Trainer(
         gpus=opt[GPU],
-        accelerator=opt[BACKEND],
+        strategy=opt[BACKEND],
         precision=opt[RUNTIME_PRECISION])
 
     beg = time.time()

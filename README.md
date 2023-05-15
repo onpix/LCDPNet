@@ -30,6 +30,8 @@ Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
 ## Changelog
 
 - 2023.2.7: Merge `tar.gz` files of our dataset to a single `7z` file.
+- 2023.2.8: Update packages version in `requirements.txt`.
+- 2023.2.8: Upload `env.yaml`.
 
 ## More Comparisons
 
@@ -50,6 +52,8 @@ Existing image enhancement methods are typically designed to address either the 
 1. Clone `git clone https://github.com/onpix/LCDPNet.git`
 2. Go to directory `cd LCDPNet`
 3. Install required packages `pip install -r requirements.txt`
+
+We also provide `env.yaml` for quickly installing packages. Note that you may need to modify the env name to prevent overwriting your existing enviroment, or modify cudatoolkit and cudnn version in `env.yaml` to match your local cuda version.
 
 ## Running
 

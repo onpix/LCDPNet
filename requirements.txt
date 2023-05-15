@@ -1,9 +1,9 @@
-ipdb
-hydra-core
-pytorch_lightning
-scikit-image
-kornia
-wandb
-opencv-python
-matplotlib
-torchvision
+ipdb == 0.13.9
+hydra-core == 1.1.1
+pytorch_lightning == 1.7.6
+scikit-image == 0.19.2
+kornia == 0.6.7
+wandb == 0.13.8
+opencv-python == 4.5.5.64
+matplotlib == 3.5.1
+torchvision == 0.13.1
