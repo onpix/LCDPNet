@@ -1,11 +1,16 @@
-<div style="text-align: center">
-<h1> Local Color Distributions Prior for Image Enhancement [ECCV2022]
+<div align="center">
+<h1 align="center"> Local Color Distributions Prior for Image Enhancement [ECCV2022]
 </h1>
 
-Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
+<a align="center" href="https://paperswithcode.com/sota/image-enhancement-on-exposure-errors?p=local-color-distributions-prior-for-image">
+    <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/local-color-distributions-prior-for-image/image-enhancement-on-exposure-errors" alt="PWC" />
+</a>
 
+<p align="center">
+Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup> <br>
 <sup>1</sup>City University of Hong Kong
-
+</p>
+    
 | Input                                                                                                           | Ours                                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | <img width=250px src="https://hywang99.github.io/images/lcdpnet/res0-a2117-20050510_213735__MG_1270.png"></img> | <img width=250px src="https://hywang99.github.io/images/lcdpnet/res1-a2117-20050510_213735__MG_1270.png"></img> |
@@ -14,6 +19,7 @@ Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
 [//]: # (|  ![]&#40;https://hywang99.github.io/images/lcdpnet/res0-a0259-dvf_029.png&#41;     | ![]&#40;https://hywang99.github.io/images/lcdpnet/res1-a0259-dvf_029.png&#41;                  |)
 [//]: # (|  ![]&#40;https://hywang99.github.io/images/lcdpnet/res0-a1682-DSC_0010-4.png&#41;     | ![]&#40;https://hywang99.github.io/images/lcdpnet/res1-a1682-DSC_0010-4.png&#41;               |)
 
+</div>
 
 ## Changelog
 
@@ -24,7 +30,6 @@ Haoyuan Wang<sup>1</sup>, Ke Xu<sup>1</sup>, Rynson Lau<sup>1</sup>
 ## More Comparisons
 
 See more interactive comparisons on our <a href="https://whyy.site/paper/lcdp" style="margin: auto;">[ project page ]</a> !
-</div>
 
 ![](https://github.com/onpix/LCDPNet/blob/main/fig1.jpg)
 
